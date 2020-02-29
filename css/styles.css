@@ -1,0 +1,189 @@
+/************** DEFAULTS **************/
+
+
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fafafa;
+    color: #252525;
+}
+
+.btn {
+    background-color: #f7ae8d;
+    color: #fff;
+}
+
+/************** HEADER **************/
+
+
+
+
+header {
+    height: 75px;
+    background-color: #fafafa;
+    opacity: 0.85;
+}
+
+#logo-bg {
+    background-color: #fafafa;
+    max-width: 100px;
+
+    border-radius: 100px;
+    padding: 5px;
+}
+
+#logo-img {
+    width: 100%;
+}
+
+
+
+
+/************** MAIN **************/
+
+
+
+/* Carousel */
+
+#carousel {
+    z-index: -1000;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+}
+
+
+/* Info */
+
+#info {
+    font-size: 13pt;
+}
+
+#info-img {
+    height: 275px;
+    object-fit: cover;
+    object-position: -115px 0;
+}
+
+
+/* Form */
+
+#form {
+    border: 3px solid #7ab492;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #fff;
+}
+
+.error {
+    color: red;
+}
+
+
+
+/* Thanks section */
+
+#thanks-section {
+    color: #252525;
+    min-height: 280px;
+}
+
+#thanks-section i {
+    font-size: 55pt;
+}
+
+
+
+/* Admin Panel */
+
+
+
+
+/************** FOOTER **************/
+
+
+
+
+footer p {
+    text-align: center;
+}
+
+
+
+
+
+/******************** TABLET ********************/
+@media only screen and (min-width: 540px) {
+
+
+
+    /************** HEADER **************/
+
+
+
+
+    header {
+        height: 100px;
+    }
+
+    #logo-bg {
+        max-width: 150px;
+        padding: 10px;
+    }
+
+
+
+    /************** MAIN **************/
+
+
+
+    /* Carousel */
+
+    .carousel-item img {
+        height: 450px;
+    }
+
+
+    /* Info */
+
+    #info-img {
+        max-height: 300px;
+        object-position: center;
+    }
+
+
+}
+
+
+
+
+/******************** DESKTOP ********************/
+@media only screen and (min-width: 768px) {
+
+
+
+    /************** HEADER **************/
+
+
+
+
+
+
+
+    /************** MAIN **************/
+
+
+
+    /* Carousel */
+
+    .carousel-item img {
+        height: 550px;
+    }
+    
+
+
+}
